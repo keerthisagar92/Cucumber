@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login scenarios",
+        "description": "",
+        "id": "login-scenarios;login-scenarios",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20661900363,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I open yahoo mail",
+            "match": {
+              "location": "stepDefinition.openUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13595846361,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter username and password",
+            "match": {
+              "location": "stepDefinition.enterDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57544608,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login to yahoo",
+            "match": {
+              "location": "stepDefinition.login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login scenarios",
+    "description": "",
+    "id": "login-scenarios",
+    "keyword": "Feature",
+    "uri": "Jenkins/Jenkins/cucumber.feature"
+  }
+]
